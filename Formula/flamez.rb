@@ -1,12 +1,11 @@
 class Flamez < Formula
   desc "Live process-lifetime and CPU-activity flamegraph"
   homepage "https://github.com/hspak/flamez"
-  version "0.0.0"
-  url "https://github.com/hspak/flamez/releases/download/0.0.0/flamez-0.0.0-aarch64-macos.tar.gz"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.1.1"
+  url "https://github.com/hspak/flamez/releases/download/0.1.1/flamez-0.1.1-aarch64-macos.tar.gz"
+  sha256 "11de6b0e1d8c89b20877030c07eb14c88c0802530826e2b05ff5e67b43d98e88"
   license "MIT"
 
-  disable! date: "2026-09-01", because: "the first Homebrew release has not been published"
 
   livecheck do
     url :stable
