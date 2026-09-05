@@ -1,7 +1,7 @@
 class Zanger < Formula
   desc "A three pane TUI file navigator"
   homepage "https://github.com/hspak/zanger"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   livecheck do
@@ -10,15 +10,15 @@ class Zanger < Formula
   end
 
   on_macos do
-    url "https://github.com/hspak/zanger/releases/download/0.4.0/zanger-0.4.0-aarch64-macos.tar.gz"
-    sha256 "01f211ab15c1f57c69c44e45741e5f72db573a4e5d399ffd34d5bd41d0e9ec3b"
+    url "https://github.com/hspak/zanger/releases/download/0.5.0/zanger-0.5.0-aarch64-macos.tar.gz"
+    sha256 "4ab7895a8fe3a270426eefc5be7be9563b82c96dcabdd47c5d206dad10a3ccdd"
 
     depends_on arch: :arm64
   end
 
   on_linux do
-    url "https://github.com/hspak/zanger/releases/download/0.4.0/zanger-0.4.0-x86_64-linux-musl.tar.gz"
-    sha256 "d9ddc40faeaacfdbd2b0069d6238c4d557fa28bbbc85d174389f09055d6a0740"
+    url "https://github.com/hspak/zanger/releases/download/0.5.0/zanger-0.5.0-x86_64-linux-musl.tar.gz"
+    sha256 "de2bf229bec5e9b510c36334f623118e4bd10fb9df06ab34411f7bf361464797"
 
     depends_on arch: :x86_64
   end
