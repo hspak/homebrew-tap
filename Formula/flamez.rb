@@ -1,9 +1,9 @@
 class Flamez < Formula
   desc "Live process-lifetime and CPU-activity flamegraph"
   homepage "https://github.com/hspak/flamez"
-  version "0.1.1"
-  url "https://github.com/hspak/flamez/releases/download/0.1.1/flamez-0.1.1-aarch64-macos.tar.gz"
-  sha256 "11de6b0e1d8c89b20877030c07eb14c88c0802530826e2b05ff5e67b43d98e88"
+  version "0.2.0"
+  url "https://github.com/hspak/flamez/releases/download/0.2.0/flamez-0.2.0-aarch64-macos.tar.gz"
+  sha256 "fca49be201c11a27b77836164c53dfdae2b14308efd8cf26c4e06ab565f74586"
   license "MIT"
 
 
