@@ -1,6 +1,6 @@
 cask "zimbr-relay" do
-  version "0.3.0"
-  sha256 "49d3e986f28b1e12152caf012a1c77be9c8569c949d248e39aebda0c713d5ab8"
+  version "0.4.1"
+  sha256 "df158aa4ddee9a1b29fbf120a924451c233d50efcd207bf9dd8d12a2100d56bf"
 
   url "https://github.com/hspak/zimbr/releases/download/#{version}/zimbr-relay-#{version}-aarch64-macos.zip"
   name "Zimbr Relay"
